@@ -28,12 +28,14 @@ public class RepoAdapter extends RecyclerView.Adapter<RepoAdapter.RepoViewHolder
         LinearLayout repoLayout;
         TextView nameRepo;
         TextView descriptionRepo;
+        TextView languageRepo;
 
         public RepoViewHolder(View v) {
             super(v);
             repoLayout = (LinearLayout)v.findViewById(R.id.repos_layout);
-            nameRepo = (TextView)v.findViewById(R.id.rating);
+            nameRepo = (TextView)v.findViewById(R.id.title);
             descriptionRepo = (TextView)v.findViewById(R.id.description);
+            languageRepo = (TextView)v.findViewById(R.id.languageRepo);
         }
     }
 
@@ -53,6 +55,7 @@ public class RepoAdapter extends RecyclerView.Adapter<RepoAdapter.RepoViewHolder
     public void onBindViewHolder(RepoViewHolder holder, int position) {
         holder.nameRepo.setText(repos.get(position).getName());
         holder.descriptionRepo.setText(repos.get(position).getDescription());
+        holder.languageRepo.setText(repos.get(position).getLanguage());
     }
 
     @Override

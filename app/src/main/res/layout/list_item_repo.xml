@@ -24,14 +24,6 @@
             android:textColor="@color/colorBlack"
             android:textSize="16sp" />
 
-
-        <TextView
-            android:id="@+id/subtitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingRight="16dp"
-            android:textColor="@color/colorGreyLight" />
-
         <TextView
             android:id="@+id/description"
             android:layout_width="wrap_content"
@@ -48,11 +40,11 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/rating"
+            android:id="@+id/languageRepo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
-            android:text="5.0" />
+            android:text="Java" />
     </LinearLayout>
 
 </LinearLayout>
