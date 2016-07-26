@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Simple Github Client</string>
+    <string name="avatar_image">https://avatars2.githubusercontent.com/u/9070076?v=3&amp;s=200</string>
+    <string name="user_name">rubixware</string>
 </resources>
